@@ -1,0 +1,15 @@
+.content {
+    background-color: #cecece; /* Define a cor de fundo da div */
+    padding: 20px; /* Adiciona um pouco de espaço interno para não colar o texto nas bordas */
+    margin: 10px; /* Adiciona uma margem externa para separar a div do restante dos elementos */
+}
+
+h1 {
+    color: #333; /* Cor do texto do título */
+    font-family: Arial, sans-serif; /* Tipo de fonte do título */
+}
+
+p {
+    color: #666; /* Cor do texto do parágrafo */
+    font-size: 16px; /* Tamanho do texto do parágrafo */
+}

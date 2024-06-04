@@ -1,0 +1,31 @@
+/* Estilo para o título */
+h1 {
+    color: #4CAF50; /* Cor verde */
+    font-family: Arial, sans-serif; /* Fonte Arial */
+    text-align: center; /* Centralizado */
+    margin-top: 20px; /* Margem superior */
+}
+
+/* Estilo para o parágrafo */
+p {
+    color: #555; /* Cor cinza escuro */
+    font-family: 'Georgia', serif; /* Fonte Georgia */
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.6; /* Altura da linha */
+    margin: 20px; /* Margem */
+    text-align: justify; /* Justificado */
+}
+
+/* Estilo para a lista */
+ul {
+    list-style-type: square; /* Tipo de marcador quadrado */
+    margin: 20px; /* Margem */
+    padding: 0; /* Sem preenchimento */
+}
+
+li {
+    color: #333; /* Cor cinza escuro */
+    font-family: 'Verdana', sans-serif; /* Fonte Verdana */
+    font-size: 14px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Margem inferior */
+}

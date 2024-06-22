@@ -1,0 +1,147 @@
+/* Reset básico de estilos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #984ae2;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .profile-pic {
+    border-radius: 50%; /* Faz a imagem ficar redonda */
+    width: 120px;
+    height: 120px;
+    object-fit: cover; /* Garantir que a imagem cubra todo o espaço */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Estilo das seções */
+main {
+    width: 100%;
+    max-width: 800px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section p, section li {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilo das listas de habilidades */
+.skills {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills li {
+    margin: 5px 0;
+}
+
+/* Estilo da seção de projetos do GitHub */
+#github-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projects-container div {
+    background-color: #4A90E2;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    width: calc(50% - 40px); /* Ajuste para largura responsiva */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#redes-sociais ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#redes-sociais li {
+    margin: 0 10px;
+}
+
+#redes-sociais a {
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#redes-sociais a:hover {
+    color: #333;
+}
+
+/* Estilo do rodapé */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #666;
+}

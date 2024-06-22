@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <!-- Adicionado metadados relevantes para SEO -->
+    <meta name="description" content="Este é um portfólio profissional que apresenta minhas habilidades e projetos.">
+    <meta name="keywords" content="Portfólio, HTML, CSS, JavaScript, Desenvolvimento Web">
+    <meta name="author" content="Livia Serencovich Carvalho">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Livia</title>
+    <!-- Adicionado metadados de Open Graph para melhor compartilhamento em redes sociais -->
+    <meta property="og:title" content="Portfólio de Livia">
+    <meta property="og:description" content="Este é um portfólio profissional que apresenta minhas habilidades e projetos.">
+    <meta property="og:image" content="caminho/para/imagem.png">
+    <meta property="og:url" content="URL do seu site">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Utilizado <header> semântico para o cabeçalho -->
+    <header>
+        <img src="foto de perfil.jpeg" alt="[Livia]" class="profile-pic">
+        <h1>Livia Serencovich Carvalho</h1>
+        <p>Futura Dev | Especialista Fullstack</p>
+    </header>
+    <!-- Utilizado <main> para o conteúdo principal -->
+    <main>
+        <!-- Utilizado <section> para agrupar conteúdo relacionado -->
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Curiosa e criativa, fascinada em contribuir para o desenvolvimento de pessoas
+                e ambientes, proporcionando melhorias de negócios, gosto de adquirir e compartilhar
+                conhecimentos que agreguem na minha carreira profissional e que contribua à sociedade 
+                de forma justa e ética, comecei meus estudos em outubro de 2023 em desenvolvimento web, 
+                pretendo me especializar em criar soluções digitais acessíveis e eficientes.
+                Meu objetivo é transformar ideias complexas em aplicações web fáceis de usar.</p>
+        </section>
+
+        <!-- Utilizado <section> para as habilidades e container flex para layout lado a lado -->
+        <div class="skills-container">
+            <section>
+                <h2>Hard Skills</h2>
+                <ul class="skills hard-skills">
+                    <li>JavaScript (ES6+)</li>
+                    <li>NodeJs e React</li>
+                    <li>CSS e HTML</li>
+                    <li>Postgress, Postman</li>
+                    <li>JWT</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Soft Skills</h2>
+                <ul class="skills soft-skills">
+                    <li>Comunicação Eficaz</li>
+                    <li>Trabalho em Equipe</li>
+                    <li>Resolução de Problemas</li>
+                    <li>Flexibilidade e Adaptabilidade</li>
+                    <li>Liderança</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Utilizado <section> para projetos do GitHub e <article> para cada projeto -->
+        <section id="github-projects">
+            <h2>Projetos no GitHub</h2>
+            <div id="projects-container">
+                <!-- Projetos do GitHub -->
+                <article>
+                    <a href="https://github.com/LivsDev/Futuro_Dev_Trip.git" target="_blank">Futuro Dev Trip</a>
+                </article>
+                <article>
+                    <a href="https://github.com/LivsDev/Futuro_Dev_Trip_M2_Frontend.git" target="_blank">Futuro Dev Trip M2 Frontend</a>
+                </article>
+                </div>
+        </section>
+        
+        <!-- Utilizado <section> para redes sociais -->
+        <section id="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/livia-s-carvalho/">LinkedIn</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Utilizado <footer> para o rodapé -->
+    <footer>
+        <p>Contato: livia.carvalho@sonhodigital.com.br</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body { /* Estilos para o corpo da página*/
+    font-family: Arial, sans-serif; /* Define a fonte para Arial */
+    background-color: #6A0DAD; /* Ajuste a cor de fundo conforme necessário */
+    display: flex;  /* Usa flexbox para centralizar o container */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    height: 100vh;  /* Usa 100% da altura da tela */
+    margin: 0; /* Remove margens padrão */
+}
+
+.container {  /* Estilos para o container que encapsula os elementos da lista de tarefas */
+   
+    background-color: #fff; /* Fundo branco para contraste */
+    padding: 20px;  /* Espaçamento interno */
+    border-radius: 10px;/* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Sombra sutil para efeito 3D */
+    width: 300px; /* Largura fixa */
+    text-align: center; /* Centraliza o texto dentro do container */
+    color: #333; /* Cor do texto interno */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6A0DAD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5A0DAD;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Estilo para itens marcados como concluídos */
+.done {
+    text-decoration: line-through; /* Texto riscado */
+    align-items:  flex-start; /* Alinha os itens verticalmente esquerda */
+}

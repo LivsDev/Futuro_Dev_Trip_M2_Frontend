@@ -2,8 +2,6 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="styles.css">
-<script src="main.js"></script>
-
 </head>
 <body>
     <div class="container">
@@ -11,17 +9,35 @@
         
         <div class="row">
         <span>Número:1</span>
-        <input type="number">
+        <input id='input-num1'>
         </div>
 
         
         <div class="row">
         <span>Número:2</span>
-        <input type="number">
+        <input id="input-num2">
         </div>
 
-        <button>Calcular</button>
+        <button onclick="calcular()">Calcular</button> 
+        <span id="txtResultado"> Resultado:</span>
+
         <button>Validar</button>
+        <!-- <script src="main.js"></script> -->
+<script>
+
+const numero1 = document.getElementById('input-num1')
+const numero2 = document.getElementById('input-num2')
+const txtResultado = document.getElementById('txtResultado')
+
+    function calcular () {
+        //numero1.value + numero2.value
+        console.log ('calculando alguma coisa..')
+        const resultado= parseInt(numero1.value) + parseInt(numero2.value)
+        console.log ('Resultado: ', resultado)
+        txtResultado.innerText = `Resultado ${resultado}`
+        txtResultado.classList.remove('error')
+    }
+</script>
 
     </div>
     

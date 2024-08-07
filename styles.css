@@ -46,6 +46,7 @@ ul li {
 .episodios {
 display: flex;
 flex-direction: row;
+margin-top: 20px;
 }
 
 .card-episodio {
@@ -55,3 +56,45 @@ flex-direction: row;
   border-radius: 4px;
 }
 
+.m-t-14 {
+    margin-top: 14px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-b-28 {
+    margin-bottom: 28px;
+}
+
+.m-t-56 {
+    margin-top: 56px;
+}
+
+.poster {
+    width: 392px;
+}
+
+.ph-30 {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.gap-150 {
+    gap: 150px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.social {
+    width: 30px;
+    height: 160px;
+    background-color: white;
+    position: absolute;
+    right: 30px;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+}

@@ -1,6 +1,8 @@
 *{ /* Atributo global css */
     margin: 0;   /*para retirar margem */
     color: white; 
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 
 .container{

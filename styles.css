@@ -1,5 +1,5 @@
-*{ /* Atributo global css para retirar margem */
-    margin: 0;  
+*{ /* Atributo global css */
+    margin: 0;   /*para retirar margem */
     color: white; 
 }
 
@@ -16,4 +16,8 @@
     list-style-type: none;
     padding: 2em 25vw;
     justify-content: space-between;
+}
+
+ul li {
+    cursor: pointer
 }

@@ -1,35 +1,43 @@
-*{ /* Atributo global css */
-    margin: 0;   /*para retirar margem */
-    color: white; 
+* {
+    margin: 0;
+    color: white;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
 
-.container{
- display: flex;
- flex-direction: column;
- background-color: black;
- min-height: 100%;
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    min-height: 100%;   
+    background-image: url('./imgs/poster.png');
+    /* background-repeat: no-repeat; */
+    /* background-position: center;
+    background-size: contain; */
+    
 }
 
 .menu ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
     list-style-type: none;
     padding: 2em 25vw;
     justify-content: space-between;
+    align-items: flex-end
+
 }
 
 ul li {
-    cursor: pointer
+    cursor: pointer;
 }
 
-.info-serie {
+.info_serie {
     display: flex;
     flex-direction: column;
+    width: 450px;
 }
 
-.titulo{
+.titulo {
     font-size: 18px;
 }
 
@@ -40,20 +48,20 @@ ul li {
 
 .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;    
 }
 
 .episodios {
-display: flex;
-flex-direction: row;
-margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
 }
 
 .card-episodio {
-  width: 230px;
-  height: 135px;  
-  background-color: #E5E5E5;
-  border-radius: 4px;
+    width: 230px;
+    height: 135px;
+    background-color: #E5E5E5;
+    border-radius: 4px;
 }
 
 .m-t-14 {

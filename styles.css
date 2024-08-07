@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    color: white;
+*{ /* Atributo global css para retirar margem */
+    margin: 0;  
+    color: white; 
 }
 
 .container{

@@ -38,3 +38,20 @@ ul li {
     font-weight: 400;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.episodios {
+display: flex;
+flex-direction: row;
+}
+
+.card-episodio {
+  width: 230px;
+  height: 135px;  
+  background-color: #E5E5E5;
+  border-radius: 4px;
+}
+

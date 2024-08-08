@@ -10,20 +10,21 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Altura mínima da viewport */
-    background-image: url('./imgs/THE UMBRELLA ACADEMY _ 2019.jpeg');
+    /* background-image: url('./imgs/THE UMBRELLA ACADEMY _ 2019.jpeg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: black; /* Fundo preto como fallback */
 }
 
-.menu ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    padding: 10px 0; /* Espaçamento interno */
-    margin: 0; /* Remover margem padrão */
+.menu ul { 
     background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente para contraste */
+    display: flex;
+    flex-direction: row;    
+    list-style-type: none;
+    padding: 2em 25vw;
+    justify-content: space-between;
+    align-items: flex-end
 }
 
 .menu li {
@@ -49,7 +50,10 @@ body {
 }
 
 .card-episodio {
-    background-color: #333;
+    display: flex;
+    flex-wrap: wrap; /* Permite que as caixinhas quebrem linha se necessário */
+    gap: 10px; /* Espaçamento entre as caixinhas */
+    background-color: #FFFF;
     padding: 10px;
     margin: 5px;
     cursor: pointer;

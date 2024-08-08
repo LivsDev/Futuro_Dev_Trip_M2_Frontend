@@ -18,8 +18,6 @@ const episodios = [
     'Episódio 1',
     'Episódio 2',
     'Episódio 3',
-    'Episódio 4',
-    'Episódio 5'
 ];
 
 function renderizarEpisodios() {

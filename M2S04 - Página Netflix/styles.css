@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Altura mínima da viewport */
-    background-image: url('./imgs/avatar.jpg');
+    background-image: url('./imgs/avatar-the-last-airbender.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

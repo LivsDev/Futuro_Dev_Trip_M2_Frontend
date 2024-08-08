@@ -11,9 +11,10 @@ body {
     flex-direction: column;
     background-color: black;
     min-height: 100%;   
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    background-image: url('./imgs/THE\ UMBRELLA\ ACADEMY\ _\ 2019.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .menu ul {

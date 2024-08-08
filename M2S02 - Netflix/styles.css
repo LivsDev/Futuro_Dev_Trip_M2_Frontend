@@ -55,6 +55,10 @@ ul li {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    padding: 20%;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que as caixinhas quebrem linha se necessário */
+    
 }
 
 .card-episodio {

@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Altura mínima da viewport */
-    /* background-image: url('./imgs/THE UMBRELLA ACADEMY _ 2019.jpeg'); */
+    background-image: url('./imgs/avatar.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -54,7 +54,7 @@ body {
     padding: 10px;
     margin: 5px;
     cursor: pointer;
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 4%; /* Bordas arredondadas */
     flex: 0 1 200px; /* Permitir que as caixinhas encolham e cresçam */
     display: flex;
     justify-content: center;

@@ -6,3 +6,6 @@ function paginaEmConstrucao() {
     alert('Página em construção');
 }
 
+function episodioClicado(numero) {
+    alert('Episódio ' + numero + ' clicado');
+}

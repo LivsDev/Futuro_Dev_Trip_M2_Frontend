@@ -50,13 +50,25 @@ body {
 }
 
 .card-episodio {
-    display: flex;
-    flex-wrap: wrap; /* Permite que as caixinhas quebrem linha se necessário */
-    gap: 10px; /* Espaçamento entre as caixinhas */
-    background-color: #FFFF;
+    background-color: #fff; /* Cor de fundo das caixinhas */
     padding: 10px;
     margin: 5px;
     cursor: pointer;
+    border-radius: 10px; /* Bordas arredondadas */
+    flex: 0 1 200px; /* Permitir que as caixinhas encolham e cresçam */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0c0c0ce5; /* Cor do texto */
+}
+
+.episodios {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as caixinhas quebrem linha se necessário */
+    gap: 10px; /* Espaçamento entre as caixinhas */
+    padding: 20px;
+    justify-content: flex-start; /* Alinhar os episódios ao início */
 }
 
 .social {

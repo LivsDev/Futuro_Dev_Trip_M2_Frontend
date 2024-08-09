@@ -46,9 +46,8 @@ body {
 
 .poster-container {
     display: flex;
-    justify-content: flex-start; /* Alinha o poster à esquerda */
-    padding: 20px;
-    margin-top: 20px; /* Adiciona um espaço entre os episódios e o poster */
+    justify-content: flex-start; /* Alinha o poster à esquerda dentro do contêiner */
+    margin-left: 20px; /* Adiciona um espaço entre o poster e a última caixinha */
 }
 
 .poster {
@@ -56,6 +55,8 @@ body {
     height: auto;
     border-radius: 10px; /* Adiciona bordas arredondadas ao poster */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao redor do poster */
+    display: flex;
+    justify-content: flex-start; /* Alinha o poster à esquerda */
 }
 
 .card-episodio {
